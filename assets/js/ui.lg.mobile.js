@@ -10,7 +10,7 @@ var lgmobile = function(){
             common.nav();
             common.cleave();
             common.modal();
-            common.loadingOpen();
+            //common.loadingOpen();
         },
         cleave : function(){
             $("[data-cleave]").each(function(){
