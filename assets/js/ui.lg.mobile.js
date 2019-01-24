@@ -10,6 +10,7 @@ var lgmobile = function(){
             common.nav();
             common.cleave();
             common.modal();
+            common.loadingOpen();
         },
         cleave : function(){
             $("[data-cleave]").each(function(){
@@ -234,6 +235,12 @@ var lgmobile = function(){
                     $("html").removeClass("open-modal");
                 }
             }).removeClass("open");
+        },
+        loadingOpen : function(){
+            $("body").append("<div class=loading />");
+        },
+        loadingClose : function(){
+            $("body").find(".loading").remove();
         }
     };
     return common;
