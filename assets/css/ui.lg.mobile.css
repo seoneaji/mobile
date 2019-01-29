@@ -75,6 +75,8 @@
 .btn-del span{background-image:url(../images/icon_del.png);}
 .btn-plus.type2 span{background:url(../images/btn_more2.png) no-repeat; background-size:cover;}
 .btn-send{width:calc(100% - 16px); height: 40px; margin:7px 8px 0; background:#9f6eaf; font-weight: 800; color:#fff; font-size:11px; text-align: center;}
+.btn-small{width:62px; height:36px; line-height:36px; text-align:center; color:#fff; font-weight:800; background:#c10c3f;}
+
 
 /* table */
 .tbl-title{display:block; margin-top:20px; padding:0 16px; line-height:16px; font-size:10px; color:#222; font-weight:800;}
@@ -182,3 +184,10 @@ html.open-modal #modal {display:block;}
 
 /* loading */
 .loading{position:fixed;top:0;left:0;width:100%;height: 100vh;background: url(../images/loading.svg) center no-repeat;background-color: rgba(255, 255, 255, 0.8);}
+
+/* certified */
+.certified-txt{font-size:11px; color:#4d4d4d; line-height:20px}
+.certified-input{display:flex; margin:14px 0 4px;justify-content: space-between;}
+.certified-input input{width: calc(100% - 66px);}
+.certified-input.check input{background:#eee;}
+.certified-input.check .btn-small{background: #777;}
